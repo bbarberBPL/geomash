@@ -63,7 +63,7 @@ class GeomashTest < ActiveSupport::TestCase
     assert_equal 'Germany', result[:country_part]
     assert_nil result[:neighborhood_part]
     assert_nil result[:street_part]
-    assert_equal '7003692', result[:tgn][:id] if Geomash::TGN.tgn_enabled == true # Seems to like swapping between 7003692 and 7000084 currently(5/6/2026) 7003692
+    assert_equal '7003692', result[:tgn][:id] if Geomash::TGN.tgn_enabled == true
     assert_equal true, result[:tgn][:original_string_differs] if Geomash::TGN.tgn_enabled == true
     assert_equal '2953481', result[:geonames][:id] if Geomash::Geonames.geonames_username != '<username>' #2953481
     assert_equal true, result[:geonames][:original_string_differs] if Geomash::Geonames.geonames_username != '<username>'

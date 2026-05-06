@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.version     = Geomash::VERSION
   s.authors     = ['Boston Public Library']
   s.email       = ['sanderson@bpl.org', 'eenglish@bpl.org', 'bbarber@bpl.org']
-  s.homepage    = 'https://www.bpl.org'
+  s.homepage    = 'https://github.com/samvera-labs/geomash'
   s.summary     = 'Parse string for potential geographic matches and return that data along with the TGN ID and Geonames ID.'
   s.description = 'Parse string for potential geographic matches and return that data along with the TGN ID and Geonames ID.'
 
